@@ -1,6 +1,6 @@
 // src/icons/Home.tsx
 import React from "react";
-import IconBase from "../IconBase";
+import IconBase from "../../app/IconBase";
 
 const Home: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <IconBase {...props}>
