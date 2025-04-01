@@ -4,44 +4,51 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to **MeloSpot Icons**, an open-source icon library designed to provide beautiful and scalable icons for developers and designers. This guide will help you get started with MeloSpot Icons, covering installation, features, and comparisons with other icon libraries.
 
-## Getting Started
+## What is MeloSpot Icons?
 
-Get started by **creating a new site**.
+MeloSpot Icons is a modern, open-source icon library designed to be:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Lightweight** – Optimized for performance with minimal footprint.
+- **Scalable** – Supports various sizes and resolutions without losing quality.
+- **Customizable** – Easily style icons using CSS, Tailwind, or inline styles.
+- **Developer-Friendly** – Available for multiple frameworks, including React, Vue, and standard SVG usage.
 
-### What you'll need
+MeloSpot Icons aims to provide a comprehensive set of high-quality icons that blend well with modern UI frameworks and design systems.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Installation
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+### Using npm (Recommended)
+To install MeloSpot Icons in a JavaScript or TypeScript project, use:
 
 ```bash
-cd my-website
-npm run start
+npm install melospot-icons
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Using Yarn
+```bash
+yarn add melospot-icons
+```
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### Using a CDN
+For quick usage in HTML files, include the following in your `<head>`:
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```html
+<link rel="stylesheet" href="https://cdn.example.com/melospot-icons.css" />
+```
+
+## Comparison
+
+### MeloSpot Icons vs. Other Libraries
+Here’s how MeloSpot Icons compares to some popular icon libraries:
+
+| Feature            | MeloSpot Icons | FontAwesome | Heroicons | Tabler Icons |
+|-------------------|---------------|------------|------------|--------------|
+| Open Source      | ✅ | ✅ | ✅ | ✅ |
+| Customizable    | ✅ | ✅ | ✅ | ✅ |
+| Lightweight      | ✅ | ❌ (heavier) | ✅ | ✅ |
+| Framework Support | React, Vue, SVG | React, Vue, CSS | React, SVG | React, SVG |
+| CDN Support      | ✅ | ✅ | ✅ | ✅ |
+
+MeloSpot Icons provides a balance between customization, performance, and usability, making it a great choice for modern web and mobile applications.
