@@ -44,7 +44,7 @@ Spotted a mistake or want to improve the documentation? [Edit this page on GitHu
 
 Join the MeloSpot community to discuss features, get help, and share feedback!
 
-- [Join our Discord](#)
+- [Join our Discord](https://discord.gg/cksKVD4x)
 
 ---
 
@@ -58,7 +58,7 @@ MeloSpot Icons is free for both personal and commercial use and is licensed unde
 
 A huge thank you to all our contributors for making MeloSpot Icons possible!
 
----
+<!-- ---
 
 ## 🚀 Sponsors
 
@@ -67,4 +67,4 @@ This project is proudly supported by:
 Powered by **Vercel**
 
 Thank you to our awesome backers! 🎉
-
+ -->
