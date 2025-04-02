@@ -1,0 +1,14 @@
+{
+  "name": "melospot-icons-static",
+  "version": "1.0.0",
+  "description": "Static SVG icons for MeloSpot.",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "files": ["src", "index.js"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
+
