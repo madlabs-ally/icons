@@ -4,11 +4,11 @@
   "description": "Static SVG icons for MeloSpot.",
   "main": "index.ts",
   "types": "index.d.ts",
-  "files": ["src", "index.js"],
+  "files": ["src", "index.ts"],
   "scripts": {
     "build": "tsc"
   },
-  "author": "Your Name",
+  "author": "Madalitso Simbeye",
   "license": "MIT"
 }
 
