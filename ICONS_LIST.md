@@ -2,8 +2,6 @@
 
 ## Essential Icons
 - Home
-- Search
-- Menu
 - Settings
 - User
 - Notification
