@@ -10,18 +10,18 @@ An open-source project offering a collection of high-quality icons for developer
 
 MeloSpot Icons provides official packages for various frameworks and platforms to make integration easy.
 
-| Logo         | Package                  | Version | Downloads | Links               |
-|-------------|--------------------------|---------|-----------|----------------------|
-| 🟦 JS       | `melospot-icons`         | ![npm](https://img.shields.io/npm/v/melospot-icons?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons?label=downloads) | [Docs](#) · [Source](#) |
-| ⚛️ React    | `melospot-icons-react`   | ![npm](https://img.shields.io/npm/v/melospot-icons-react?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-react?label=downloads) | [Docs](#) · [Source](#) |
-| 🔷 Vue      | `melospot-icons-vue`     | ![npm](https://img.shields.io/npm/v/melospot-icons-vue?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-vue?label=downloads) | [Docs](#) · [Source](#) |
-| 🔴 Svelte   | `melospot-icons-svelte`  | ![npm](https://img.shields.io/npm/v/melospot-icons-svelte?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-svelte?label=downloads) | [Docs](#) · [Source](#) |
-| 🟡 Solid    | `melospot-icons-solid`   | ![npm](https://img.shields.io/npm/v/melospot-icons-solid?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-solid?label=downloads) | [Docs](#) · [Source](#) |
-| 🟣 Preact   | `melospot-icons-preact`  | ![npm](https://img.shields.io/npm/v/melospot-icons-preact?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-preact?label=downloads) | [Docs](#) · [Source](#) |
-| 📱 React Native | `melospot-icons-rn` | ![npm](https://img.shields.io/npm/v/melospot-icons-rn?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-rn?label=downloads) | [Docs](#) · [Source](#) |
-| 🟠 Angular  | `melospot-icons-angular` | ![npm](https://img.shields.io/npm/v/melospot-icons-angular?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-angular?label=downloads) | [Docs](#) · [Source](#) |
-| 🖼️ SVG      | `melospot-icons-static`  | ![npm](https://img.shields.io/npm/v/melospot-icons-static?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-static?label=downloads) | [Docs](#) · [Source](https://www.npmjs.com/package/melospot-icons-static) |
-
+| Logo           | Package                    | Version                                                                 | Downloads                                                                    | Links                                                                 |
+|----------------|----------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| 🟦 JS          | `melospot-icons`           | ![npm](https://img.shields.io/npm/v/melospot-icons?label=version)       | ![downloads](https://img.shields.io/npm/dm/melospot-icons?label=downloads)   | [Docs](#) · [Source](#)                                              |
+| ⚛️ React       | `melospot-icons-react`     | ![npm](https://img.shields.io/npm/v/melospot-icons-react?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-react?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 🔷 Vue         | `melospot-icons-vue`       | ![npm](https://img.shields.io/npm/v/melospot-icons-vue?label=version)   | ![downloads](https://img.shields.io/npm/dm/melospot-icons-vue?label=downloads)   | [Docs](#) · [Source](#)                                              |
+| 🔴 Svelte      | `melospot-icons-svelte`    | ![npm](https://img.shields.io/npm/v/melospot-icons-svelte?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-svelte?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 🟡 Solid       | `melospot-icons-solid`     | ![npm](https://img.shields.io/npm/v/melospot-icons-solid?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-solid?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 🟣 Preact      | `melospot-icons-preact`    | ![npm](https://img.shields.io/npm/v/melospot-icons-preact?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-preact?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 📱 React Native| `melospot-icons-rn`        | ![npm](https://img.shields.io/npm/v/melospot-icons-rn?label=version)    | ![downloads](https://img.shields.io/npm/dm/melospot-icons-rn?label=downloads)    | [Docs](#) · [Source](#)                                              |
+| 🟠 Angular     | `melospot-icons-angular`   | ![npm](https://img.shields.io/npm/v/melospot-icons-angular?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-angular?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 🖼️ SVG         | `melospot-icons-static`    | ![npm](https://img.shields.io/npm/v/melospot-icons-static?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-static?label=downloads) | [Docs](#) · [Source](https://www.npmjs.com/package/melospot-icons-static) |
+| 🪐 Astro       | `melospot-icons-astro`     | ![npm](https://img.shields.io/npm/v/melospot-icons-astro?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-astro?label=downloads) | [Docs](#) · [Source](https://www.npmjs.com/package/melospot-icons-astro)  |
 ---
 
 ## 🎨 Figma
