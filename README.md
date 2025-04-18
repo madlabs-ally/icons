@@ -6,7 +6,7 @@ An open-source project offering a collection of high-quality icons for developer
 
 ---
 
-## 📦 Packages (Coming soon)
+## 📦 Packages
 
 MeloSpot Icons provides official packages for various frameworks and platforms to make integration easy.
 

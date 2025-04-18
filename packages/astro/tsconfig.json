@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "types": ["astro/astro-jsx"]
+    },
+    "include": [
+      "src/**/*",
+      "astro.config.ts",
+      "astro.config.mjs",
+      "astro.config.js",
+      "astro.config.cjs"
+    ],
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      }
+    ]
+}
+  

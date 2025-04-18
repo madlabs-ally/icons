@@ -1,0 +1,21 @@
+---
+export interface Props {
+  size?: number;
+  color?: string;
+  class?: string;
+}
+
+const { size = 24, color = "currentColor", class: className = "" } = Astro.props;
+---
+
+<svg 
+  width={size}
+  height={size}
+  fill={color}
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+  class={className}
+>
+  <!-- Paste your actual Menu icon SVG path(s) below -->
+  <path d="M3 6h18M3 12h18M3 18h18" stroke={color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
