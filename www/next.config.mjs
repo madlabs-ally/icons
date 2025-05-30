@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Required for static export
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,6 +10,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  basePath: '/icons',       
+  assetPrefix: '/icons/', 
+};
 
-export default nextConfig
+export default nextConfig;
