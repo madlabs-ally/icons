@@ -172,7 +172,7 @@ export default function Home() {
                 description="Seamless integration with Vue.js applications"
                 packageName="@melospot/icons-vue"
                 docsLink="/docs/vue"
-                iconUrl="/placeholder.svg?height=40&width=40"
+                iconUrl="/logo.png?height=40&width=40"
               />
               <FrameworkCard
                 title="Svelte"

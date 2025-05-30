@@ -34,7 +34,7 @@ MeloSpot Icons also offers a Figma plugin to make it easy for designers to acces
 
 ## 🤝 Contributing
 
-We welcome contributions! Please check out our [Contribution Guide](#) for more details on how to add new icons or improve the library.
+We welcome contributions! Please check out our [Contribution Guide](./CONTRIBUTING.md) for more details on how to add new icons or improve the library.
 
 Spotted a mistake or want to improve the documentation? [Edit this page on GitHub](#).
 
