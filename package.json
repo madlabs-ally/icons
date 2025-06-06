@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+     "optimize:icons": "svgo -f ./src/icons -o ./src/icons"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.5",
