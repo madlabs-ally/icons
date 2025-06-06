@@ -58,13 +58,7 @@ MeloSpot Icons is free for both personal and commercial use and is licensed unde
 
 A huge thank you to all our contributors for making MeloSpot Icons possible!
 
-<!-- ---
+[![Contributors](https://contrib.rocks/image?repo=MeloSpot/icons)](https://github.com/MeloSpot/icons/graphs/contributors)
 
-## 🚀 Sponsors
+Want to contribute? [Check out our Contribution Guide](./CONTRIBUTING.md).
 
-This project is proudly supported by:
-
-Powered by **Vercel**
-
-Thank you to our awesome backers! 🎉
- -->
