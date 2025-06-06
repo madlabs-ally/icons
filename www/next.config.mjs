@@ -1,17 +1,11 @@
+const isProduction = process.env.NODE_ENV === 'production'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Required for static export
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',
+  basePath: isProduction ? '/icons' : '',
+  assetPrefix: isProduction ? '/icons/' : '',
   images: {
     unoptimized: true,
   },
-  basePath: '/icons',       
-  assetPrefix: '/icons/', 
-};
-
-export default nextConfig;
+}
