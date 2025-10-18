@@ -2,7 +2,7 @@
 
 **Beautiful & consistent icon toolkit made for MeloSpot.**
 
-An open-source project offering a collection of high-quality icons for developers and designers.
+A modern, TypeScript-first icon library with multiple variants, perfect tree-shaking, and built-in accessibility. Like Lucide, but more modern.
 
 ---
 
@@ -12,9 +12,10 @@ MeloSpot Icons provides official packages for various frameworks and platforms t
 
 | Logo           | Package                    | Version                                                                 | Downloads                                                                    | Links                                                                 |
 |----------------|----------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| 🟦 JS          | `melospot-icons`           | ![npm](https://img.shields.io/npm/v/melospot-icons?label=version)       | ![downloads](https://img.shields.io/npm/dm/melospot-icons?label=downloads)   | [Docs](#) · [Source](#)                                              |
-| ⚛️ React       | `melospot-icons-react`     | ![npm](https://img.shields.io/npm/v/melospot-icons-react?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-react?label=downloads) | [Docs](#) · [Source](#)                                              |
-| 🔷 Vue         | `melospot-icons-vue`       | ![npm](https://img.shields.io/npm/v/melospot-icons-vue?label=version)   | ![downloads](https://img.shields.io/npm/dm/melospot-icons-vue?label=downloads)   | [Docs](#) · [Source](#)                                              |
+| 🎯 Core        | `@melospot/icons-core`     | ![npm](https://img.shields.io/npm/v/@melospot/icons-core?label=version) | ![downloads](https://img.shields.io/npm/dm/@melospot/icons-core?label=downloads) | [Docs](#) · [Source](#)                                              |
+| ⚛️ React       | `@melospot/icons-react`    | ![npm](https://img.shields.io/npm/v/@melospot/icons-react?label=version) | ![downloads](https://img.shields.io/npm/dm/@melospot/icons-react?label=downloads) | [Docs](#) · [Source](#)                                              |
+| 🔷 Vue         | `@melospot/icons-vue`      | ![npm](https://img.shields.io/npm/v/@melospot/icons-vue?label=version)   | ![downloads](https://img.shields.io/npm/dm/@melospot/icons-vue?label=downloads)   | [Docs](#) · [Source](#)                                              |
+| 🅰️ Angular     | `@melospot/icons-angular`  | ![npm](https://img.shields.io/npm/v/@melospot/icons-angular?label=version) | ![downloads](https://img.shields.io/npm/dm/@melospot/icons-angular?label=downloads) | [Docs](#) · [Source](#)                                              |
 | 🔴 Svelte      | `melospot-icons-svelte`    | ![npm](https://img.shields.io/npm/v/melospot-icons-svelte?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-svelte?label=downloads) | [Docs](#) · [Source](#)                                              |
 | 🟡 Solid       | `melospot-icons-solid`     | ![npm](https://img.shields.io/npm/v/melospot-icons-solid?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-solid?label=downloads) | [Docs](#) · [Source](#)                                              |
 | 🟣 Preact      | `melospot-icons-preact`    | ![npm](https://img.shields.io/npm/v/melospot-icons-preact?label=version) | ![downloads](https://img.shields.io/npm/dm/melospot-icons-preact?label=downloads) | [Docs](#) · [Source](#)                                              |
@@ -62,3 +63,82 @@ A huge thank you to all our contributors for making MeloSpot Icons possible!
 
 Want to contribute? [Check out our Contribution Guide](./CONTRIBUTING.md).
 
+
+---
+
+## ✨ Modern Features
+
+### 🎨 **Multiple Icon Variants**
+```tsx
+import { Home } from '@melospot/icons-react'
+
+<Home style="outline" />   {/* Clean strokes */}
+<Home style="filled" />    {/* Solid shapes */}
+<Home style="duotone" />   {/* Two-tone depth */}
+<Home style="micro" />     {/* 12px optimized */}
+```
+
+### 🌳 **Perfect Tree-Shaking**
+```tsx
+// Only imports what you need
+import { Home, Settings } from '@melospot/icons-react'
+
+// Or use dynamic imports
+import { Icon } from '@melospot/icons-react'
+<Icon name="home" style="filled" />
+```
+
+### 🔍 **Built-in Search & Discovery**
+```tsx
+import { useIconSearch } from '@melospot/icons-react'
+
+const searchResults = useIconSearch('home')
+const essentialIcons = useIconsByCategory('essential')
+```
+
+### ♿ **Accessibility First**
+- WCAG 2.1 compliant
+- Automatic `aria-label` generation
+- Screen reader friendly
+- Keyboard navigation support
+
+### 🎯 **TypeScript Native**
+- Full type safety
+- Icon name autocomplete
+- Prop validation
+- Zero runtime overhead
+
+[**See all modern features →**](./docs/MODERN_FEATURES.md)
+
+---
+
+## 🚀 Quick Start
+
+### React
+```bash
+npm install @melospot/icons-react
+```
+
+```tsx
+import { Home, Settings, User } from '@melospot/icons-react'
+
+function App() {
+  return (
+    <div>
+      <Home size={24} strokeWidth={2} />
+      <Settings style="filled" color="#F7931E" />
+      <User className="hover:scale-110" />
+    </div>
+  )
+}
+```
+
+### Vue (Coming Soon)
+```bash
+npm install @melospot/icons-vue
+```
+
+### Angular (Coming Soon)
+```bash
+npm install @melospot/icons-angular
+```

@@ -64,7 +64,13 @@ npm run format
 5. Run tests to ensure everything works:
 
 ```sh
-npm run test
+pnpm test
+```
+
+   Or run tests in watch mode during development:
+
+```sh
+pnpm test:watch
 ```
 
 ---
