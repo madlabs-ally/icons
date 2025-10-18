@@ -6,13 +6,24 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "pnpm --filter www dev",
+    "build": "pnpm -r build",
+    "build:packages": "pnpm --filter './packages/*' build",
+    "build:www": "pnpm --filter www build",
+    "start": "pnpm --filter www start",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --run --coverage",
+    "test:packages": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "clean": "pnpm -r clean",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-     "optimize:icons": "svgo -f ./src/icons -o ./src/icons"
+    "optimize:icons": "svgo -f ./src/icons -o ./src/icons",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build:packages && changeset publish"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.5",
@@ -27,15 +38,23 @@
     "@svgr/core": "^8.1.0",
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "^20",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^2.1.8",
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
     "eslint-plugin-storybook": "^0.11.3",
+    "jsdom": "^25.0.1",
     "svgo": "^3.3.2",
     "tailwindcss": "^4",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.0",
+    "tsup": "^8.0.0"
   },
   "eslintConfig": {
     "extends": [

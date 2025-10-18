@@ -11,7 +11,7 @@
 - [ ] Visual inspection
 
 ## ✅ Checklist
-- [ ] My code follows the project’s coding style.
+- [ ] My code follows the project's coding style.
 - [ ] I have added necessary tests.
 - [ ] I have updated relevant documentation.
 - [ ] This PR is ready for review.
