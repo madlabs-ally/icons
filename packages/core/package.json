@@ -1,7 +1,7 @@
 {
-  "name": "@melospot/icons-react",
+  "name": "@melospot/icons-core",
   "version": "0.1.0",
-  "description": "MeloSpot Icons package for React with modern features",
+  "description": "Core icon definitions and utilities for MeloSpot Icons",
   "license": "ISC",
   "author": "MeloSpot Team",
   "type": "module",
@@ -13,9 +13,9 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./icons/*": {
-      "import": "./dist/icons/*.js",
-      "types": "./dist/icons/*.d.ts"
+    "./icons": {
+      "import": "./dist/icons/index.js",
+      "types": "./dist/icons/index.d.ts"
     }
   },
   "files": [
@@ -31,22 +31,10 @@
     "test:coverage": "vitest --coverage",
     "typecheck": "tsc --noEmit"
   },
-  "dependencies": {
-    "@melospot/icons-core": "workspace:*"
-  },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.1.0",
-    "@types/react": "^18.0.0",
-    "jsdom": "^25.0.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.8.0",
     "vitest": "^2.1.8"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0"
   },
   "publishConfig": {
     "access": "public"
