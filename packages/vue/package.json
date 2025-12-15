@@ -1,5 +1,5 @@
 {
-  "name": "melospot-icons-vue",
+  "name": "@melospot/icons-vue",
   "version": "0.0.1",
   "description": "MeloSpot Icons package for Vue.js",
   "license": "MIT",
@@ -16,5 +16,12 @@
     "tsup": "^8.4.0",
     "typescript": "^5.8.3",
     "vue-dts": "^0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeloSpot/icons"
   }
 }

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
-import { IconRegistry } from '@melospot/icons-core'
-import type { IconDefinition } from '@melospot/icons-core'
+import { IconRegistry } from '@melospot/icons'
+import type { IconDefinition } from '@melospot/icons'
 
 export function useIcon(name: string): IconDefinition | null {
   return useMemo(() => {

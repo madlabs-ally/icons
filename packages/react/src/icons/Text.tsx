@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const Text = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M1 1H17" stroke="black" strokeWidth={2} strokeLinecap="round" /><path d="M1 7H21" stroke="black" strokeWidth={2} strokeLinecap="round" /><path d="M1 13H13" stroke="black" strokeWidth={2} strokeLinecap="round" /></svg>;

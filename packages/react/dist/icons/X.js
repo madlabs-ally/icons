@@ -1,0 +1,14 @@
+import { jsxs, jsx } from 'react/jsx-runtime';
+
+// src/icons/X.tsx
+var X = (props) => /* @__PURE__ */ jsxs("svg", { width: "1em", height: "1em", viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg", ...props, children: [
+  /* @__PURE__ */ jsxs("g", { clipPath: "url(#clip0_3366_114)", children: [
+    /* @__PURE__ */ jsx("path", { d: "M5.07107 6.34315C4.68054 5.95262 4.68054 5.31946 5.07107 4.92893C5.46159 4.53841 6.09476 4.53841 6.48528 4.92893L19.2132 17.6569C19.6037 18.0474 19.6037 18.6805 19.2132 19.0711C18.8227 19.4616 18.1895 19.4616 17.799 19.0711L5.07107 6.34315Z", fill: "#141313" }),
+    /* @__PURE__ */ jsx("path", { d: "M6.48528 19.0711C6.09476 19.4616 5.46159 19.4616 5.07107 19.0711C4.68054 18.6805 4.68054 18.0474 5.07107 17.6569L17.799 4.92893C18.1895 4.53841 18.8227 4.53841 19.2132 4.92893C19.6037 5.31946 19.6037 5.95262 19.2132 6.34315L6.48528 19.0711Z", fill: "#141313" })
+  ] }),
+  /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsx("clipPath", { id: "clip0_3366_114", children: /* @__PURE__ */ jsx("rect", { width: 24, height: 24, fill: "white" }) }) })
+] });
+
+export { X };
+//# sourceMappingURL=X.js.map
+//# sourceMappingURL=X.js.map
