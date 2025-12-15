@@ -1,6 +1,6 @@
 {
   "name": "@melospot/icons-react",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "MeloSpot Icons package for React with modern features",
   "license": "ISC",
   "author": "MeloSpot Team",
@@ -26,15 +26,17 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "clean": "rm -rf dist",
+    "generate": "tsx scripts/generate.ts",
     "test": "vitest --run",
     "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@melospot/icons-core": "workspace:*"
+    "@melospot/icons": "workspace:*"
   },
   "devDependencies": {
+    "@svgr/plugin-jsx": "^8.1.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@types/react": "^18.0.0",
@@ -42,6 +44,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
     "typescript": "^5.8.0",
     "vitest": "^2.1.8"
   },
@@ -50,5 +53,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeloSpot/icons"
   }
 }

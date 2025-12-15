@@ -1,0 +1,20 @@
+{
+  "name": "@melospot/icons-svg",
+  "version": "0.0.1",
+  "description": "Static SVG icons for MeloSpot.",
+  "main": "index.ts",
+  "repository": "https://github.com/MeloSpot/icons.git",
+  "types": "index.d.ts",
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Madalitso Simbeye",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

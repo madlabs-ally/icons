@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
-import { IconRegistry } from '@melospot/icons-core'
-import type { IconStyle } from '@melospot/icons-core'
+import { IconRegistry } from '@melospot/icons'
+import type { IconStyle } from '@melospot/icons'
 
 export interface ReactIconProps extends Omit<React.SVGProps<SVGSVGElement>, 'size' | 'color' | 'aria-hidden' | 'style'> {
   name: string

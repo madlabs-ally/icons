@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react'
 import { describe, it, expect, beforeEach } from 'vitest'
-import { IconRegistry } from '@melospot/icons-core'
-import type { IconDefinition } from '@melospot/icons-core'
+import { IconRegistry } from '@melospot/icons'
+import type { IconDefinition } from '@melospot/icons'
 import { useIconSearch, useIconsByCategory, useAllIcons } from '../hooks/useIconSearch'
 
 describe('useIconSearch hooks', () => {

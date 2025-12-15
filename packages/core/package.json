@@ -1,6 +1,6 @@
 {
-  "name": "@melospot/icons-core",
-  "version": "0.1.0",
+  "name": "@melospot/icons",
+  "version": "0.0.1",
   "description": "Core icon definitions and utilities for MeloSpot Icons",
   "license": "ISC",
   "author": "MeloSpot Team",
@@ -38,5 +38,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MeloSpot/icons"
   }
 }
