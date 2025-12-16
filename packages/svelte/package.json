@@ -1,6 +1,6 @@
 {
   "name": "@melospot/icons-svelte",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "publishConfig": {
@@ -13,19 +13,25 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "generate": "tsx scripts/generate.ts"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^12.3.0",
     "rollup": "^3.29.5",
     "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-svelte": "^7.2.2",
     "rollup-plugin-terser": "^7.0.2",
-    "svelte": "^3.59.2"
+    "svelte": "^3.59.2",
+    "svelte-preprocess": "^6.0.3",
+    "tslib": "^2.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "sirv-cli": "^2.0.0"

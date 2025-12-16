@@ -1,41 +1,43 @@
 import svelte from 'rollup-plugin-svelte';
 import { terser } from 'rollup-plugin-terser';
-import postcss from 'rollup-plugin-postcss';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import typescript from '@rollup/plugin-typescript';
+import sveltePreprocess from 'svelte-preprocess';
 
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: 'src/main.js',
+  input: 'src/index.ts',
   output: [
     {
       format: 'es',
-      file: 'dist/melospot-icons-svelte.esm.js',
+      file: 'dist/index.js',
       sourcemap: true
     },
     {
       format: 'cjs',
-      file: 'dist/melospot-icons-svelte.cjs.js',
+      file: 'dist/index.cjs',
       sourcemap: true
     },
   ],
   plugins: [
     svelte({
+      preprocess: sveltePreprocess({ sourceMap: !production }),
       compilerOptions: {
         dev: !production
       }
     }),
 
-    postcss(), // <-- this handles .css imports
-
     resolve({
       browser: true,
       dedupe: ['svelte'],
-      exportConditions: ['svelte'] // <-- recommended for Svelte
+      exportConditions: ['svelte']
     }),
-
     commonjs(),
+    typescript({
+      outputToFilesystem: true
+    }),
 
     production && terser(),
   ],
