@@ -44,6 +44,11 @@ async function generate() {
                 typescript: true,
                 plugins: ['@svgr/plugin-jsx'],
                 icon: true,
+                replaceAttrValues: {
+                    '#000': 'currentColor',
+                    '#000000': 'currentColor',
+                    black: 'currentColor',
+                },
                 // Add other SVGR options here as needed
                 template: (variables, { tpl }) => {
                     return tpl`

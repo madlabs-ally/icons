@@ -1,5 +1,11 @@
 # @melospot/icons-angular
 
+## 0.0.4
+
+### Patch Changes
+
+- Fixing the stroke fill issue on icons
+
 ## 0.0.3
 
 ### Patch Changes
