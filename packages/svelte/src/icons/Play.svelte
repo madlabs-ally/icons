@@ -1,0 +1,29 @@
+<script lang="ts">
+  export let size: number | string = 24;
+  export let color: string = 'currentColor';
+  export let strokeWidth: number | string = 2;
+  export let width: number | string = size;
+  export let height: number | string = size;
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  {width}
+  {height}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  {...$$restProps}
+>
+  <g clip-path="url(#clip0_14_67)">
+<path d="M7.98807 6.81301C7.98633 6.04321 8.81889 5.56002 9.48643 5.9434L18.4983 11.1191C19.1657 11.5025 19.1677 12.4648 18.5021 12.8512L9.51361 18.0679C8.84789 18.4541 8.01335 17.975 8.0115 17.2054L7.98807 6.81301Z" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_14_67">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
