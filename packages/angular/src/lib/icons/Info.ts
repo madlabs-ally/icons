@@ -1,0 +1,36 @@
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'icon-info',
+  standalone: true,
+  template: `
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      [attr.width]="size"
+      [attr.height]="size"
+      viewBox="0 0 24 24"
+      fill="none"
+      [attr.stroke]="color"
+      [attr.stroke-width]="strokeWidth"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="melospot-icon"
+    >
+      <circle cx="12" cy="12" r="9" stroke="black" stroke-width="2"/>
+<path d="M11 10C11 9.44772 11.4477 9 12 9V9C12.5523 9 13 9.44772 13 10V16C13 16.5523 12.5523 17 12 17V17C11.4477 17 11 16.5523 11 16V10Z" fill="#141313"/>
+<path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V7C13 7.55228 12.5523 8 12 8V8C11.4477 8 11 7.55228 11 7V7Z" fill="#141313"/>
+    </svg>
+  `,
+  styles: [`
+    :host {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  `]
+})
+export class Info {
+  @Input() size: number | string = 24;
+  @Input() color: string = 'currentColor';
+  @Input() strokeWidth: number | string = 2;
+}

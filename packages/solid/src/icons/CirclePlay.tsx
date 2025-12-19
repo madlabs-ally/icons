@@ -1,0 +1,22 @@
+import { Component, ComponentProps } from 'solid-js';
+
+const CirclePlay: Component<ComponentProps<'svg'>> = (props) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      {...props}
+    >
+      <circle cx="12" cy="12" r="9" stroke="black" stroke-width="2"/>
+<path d="M8.92681 8.47761C8.92506 7.70781 9.75763 7.22461 10.4252 7.608L16.4328 11.0586C17.1003 11.442 17.1024 12.4043 16.4366 12.7908L10.4448 16.2682C9.77903 16.6546 8.94445 16.1755 8.94271 15.4057L8.92681 8.47761Z" stroke="black" stroke-width="2"/>
+    </svg>
+  );
+};
+export default CirclePlay;
