@@ -30,9 +30,9 @@ export interface IconComponentProps extends IconProps {
   name: string
 }
 
-export type IconCategory = 
+export type IconCategory =
   | 'essential'
-  | 'actions' 
+  | 'actions'
   | 'navigation'
   | 'media'
   | 'social'
@@ -42,3 +42,13 @@ export type IconCategory =
   | 'development'
   | 'miscellaneous'
   | 'brand'
+  | 'arrows'
+  | 'device'
+  | 'ui'
+  | 'weather'
+  | 'shapes'
+  | 'math'
+  | 'layout'
+  | 'editor'
+  | 'game'
+  | 'communication'

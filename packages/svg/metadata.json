@@ -1,0 +1,559 @@
+{
+    "arrow-up": {
+        "category": "arrows",
+        "tags": [
+            "direction",
+            "up",
+            "north"
+        ],
+        "aliases": []
+    },
+    "battery-low": {
+        "category": "device",
+        "tags": [
+            "power",
+            "charge",
+            "empty"
+        ],
+        "aliases": []
+    },
+    "bin-2": {
+        "category": "ui",
+        "tags": [
+            "delete",
+            "remove",
+            "trash",
+            "garbage"
+        ],
+        "aliases": [
+            "bin"
+        ]
+    },
+    "bolt": {
+        "category": "weather",
+        "tags": [
+            "lightning",
+            "storm",
+            "energy",
+            "flash"
+        ],
+        "aliases": []
+    },
+    "circle": {
+        "category": "shapes",
+        "tags": [
+            "round",
+            "geometry"
+        ],
+        "aliases": []
+    },
+    "circle-equals": {
+        "category": "math",
+        "tags": [
+            "math",
+            "equal",
+            "round"
+        ],
+        "aliases": []
+    },
+    "circle-loading": {
+        "category": "ui",
+        "tags": [
+            "spinner",
+            "wait",
+            "process"
+        ],
+        "aliases": []
+    },
+    "circle-minus": {
+        "category": "ui",
+        "tags": [
+            "remove",
+            "delete",
+            "subtract",
+            "negative"
+        ],
+        "aliases": []
+    },
+    "circle-pause": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "stop",
+            "freeze"
+        ],
+        "aliases": []
+    },
+    "circle-play": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "start",
+            "resume"
+        ],
+        "aliases": []
+    },
+    "circle-slash": {
+        "category": "ui",
+        "tags": [
+            "block",
+            "ban",
+            "forbidden"
+        ],
+        "aliases": []
+    },
+    "columns": {
+        "category": "layout",
+        "tags": [
+            "grid",
+            "layout",
+            "vertical"
+        ],
+        "aliases": []
+    },
+    "copyright": {
+        "category": "ui",
+        "tags": [
+            "legal",
+            "intellectual property"
+        ],
+        "aliases": []
+    },
+    "decrease-indent": {
+        "category": "editor",
+        "tags": [
+            "text",
+            "format",
+            "align"
+        ],
+        "aliases": []
+    },
+    "dice-1": {
+        "category": "game",
+        "tags": [
+            "game",
+            "random",
+            "one"
+        ],
+        "aliases": []
+    },
+    "dice-2": {
+        "category": "game",
+        "tags": [
+            "game",
+            "random",
+            "two"
+        ],
+        "aliases": []
+    },
+    "dice-4": {
+        "category": "game",
+        "tags": [
+            "game",
+            "random",
+            "four"
+        ],
+        "aliases": []
+    },
+    "dice-5": {
+        "category": "game",
+        "tags": [
+            "game",
+            "random",
+            "five"
+        ],
+        "aliases": []
+    },
+    "dice-6": {
+        "category": "game",
+        "tags": [
+            "game",
+            "random",
+            "six"
+        ],
+        "aliases": []
+    },
+    "dot": {
+        "category": "ui",
+        "tags": [
+            "point",
+            "record",
+            "location"
+        ],
+        "aliases": []
+    },
+    "ellipsis": {
+        "category": "ui",
+        "tags": [
+            "more",
+            "options",
+            "menu",
+            "dots"
+        ],
+        "aliases": []
+    },
+    "ellipsis-vertical": {
+        "category": "ui",
+        "tags": [
+            "more",
+            "options",
+            "menu",
+            "dots"
+        ],
+        "aliases": []
+    },
+    "equals": {
+        "category": "math",
+        "tags": [
+            "math",
+            "result",
+            "same"
+        ],
+        "aliases": []
+    },
+    "expand": {
+        "category": "ui",
+        "tags": [
+            "fullscreen",
+            "maximize",
+            "bigger"
+        ],
+        "aliases": []
+    },
+    "expand-2": {
+        "category": "ui",
+        "tags": [
+            "fullscreen",
+            "maximize",
+            "bigger"
+        ],
+        "aliases": []
+    },
+    "focus": {
+        "category": "ui",
+        "tags": [
+            "target",
+            "aim",
+            "center"
+        ],
+        "aliases": []
+    },
+    "image": {
+        "category": "media",
+        "tags": [
+            "picture",
+            "photo",
+            "gallery"
+        ],
+        "aliases": []
+    },
+    "import": {
+        "category": "ui",
+        "tags": [
+            "download",
+            "arrow",
+            "in"
+        ],
+        "aliases": []
+    },
+    "increase-indent": {
+        "category": "editor",
+        "tags": [
+            "text",
+            "format",
+            "align"
+        ],
+        "aliases": []
+    },
+    "increase-line-spacing": {
+        "category": "editor",
+        "tags": [
+            "text",
+            "format",
+            "height"
+        ],
+        "aliases": []
+    },
+    "info": {
+        "category": "ui",
+        "tags": [
+            "help",
+            "about",
+            "details"
+        ],
+        "aliases": []
+    },
+    "list": {
+        "category": "ui",
+        "tags": [
+            "menu",
+            "hamburger",
+            "options"
+        ],
+        "aliases": []
+    },
+    "list-numbered": {
+        "category": "editor",
+        "tags": [
+            "list",
+            "ordered",
+            "numbers"
+        ],
+        "aliases": []
+    },
+    "minimize": {
+        "category": "ui",
+        "tags": [
+            "smaller",
+            "reduce",
+            "exit fullscreen"
+        ],
+        "aliases": []
+    },
+    "minus": {
+        "category": "math",
+        "tags": [
+            "subtract",
+            "negative",
+            "remove"
+        ],
+        "aliases": []
+    },
+    "not-equal": {
+        "category": "math",
+        "tags": [
+            "different",
+            "unequal"
+        ],
+        "aliases": []
+    },
+    "pause": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "stop",
+            "freeze"
+        ],
+        "aliases": []
+    },
+    "play": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "start",
+            "resume"
+        ],
+        "aliases": []
+    },
+    "plus": {
+        "category": "math",
+        "tags": [
+            "add",
+            "new",
+            "create",
+            "positive"
+        ],
+        "aliases": []
+    },
+    "plus-circle": {
+        "category": "ui",
+        "tags": [
+            "add",
+            "new",
+            "create",
+            "positive"
+        ],
+        "aliases": []
+    },
+    "record": {
+        "category": "media",
+        "tags": [
+            "video",
+            "audio",
+            "mic"
+        ],
+        "aliases": []
+    },
+    "rotate-anti-clockwise": {
+        "category": "editor",
+        "tags": [
+            "turn",
+            "spin",
+            "left",
+            "counter"
+        ],
+        "aliases": []
+    },
+    "rotate-clockwise": {
+        "category": "editor",
+        "tags": [
+            "turn",
+            "spin",
+            "right"
+        ],
+        "aliases": []
+    },
+    "scan": {
+        "category": "ui",
+        "tags": [
+            "qr",
+            "code",
+            "read"
+        ],
+        "aliases": []
+    },
+    "scan-barcode": {
+        "category": "ui",
+        "tags": [
+            "product",
+            "price",
+            "read"
+        ],
+        "aliases": []
+    },
+    "skip-back": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "previous",
+            "rewind"
+        ],
+        "aliases": []
+    },
+    "skip-forward": {
+        "category": "media",
+        "tags": [
+            "music",
+            "video",
+            "next",
+            "fastforward"
+        ],
+        "aliases": []
+    },
+    "square": {
+        "category": "shapes",
+        "tags": [
+            "geometry",
+            "box",
+            "rectangle"
+        ],
+        "aliases": []
+    },
+    "square-arrow-down-left": {
+        "category": "arrows",
+        "tags": [
+            "direction",
+            "bottom-left"
+        ],
+        "aliases": []
+    },
+    "square-dotted": {
+        "category": "ui",
+        "tags": [
+            "selection",
+            "dashed",
+            "box"
+        ],
+        "aliases": []
+    },
+    "square-fill": {
+        "category": "shapes",
+        "tags": [
+            "geometry",
+            "box",
+            "solid"
+        ],
+        "aliases": []
+    },
+    "square-plus": {
+        "category": "ui",
+        "tags": [
+            "add",
+            "new",
+            "create",
+            "box"
+        ],
+        "aliases": []
+    },
+    "sun": {
+        "category": "weather",
+        "tags": [
+            "light",
+            "day",
+            "bright",
+            "mode"
+        ],
+        "aliases": []
+    },
+    "table": {
+        "category": "editor",
+        "tags": [
+            "data",
+            "grid",
+            "spreadsheet"
+        ],
+        "aliases": []
+    },
+    "toggle-left": {
+        "category": "ui",
+        "tags": [
+            "switch",
+            "off",
+            "control"
+        ],
+        "aliases": []
+    },
+    "toggle-right": {
+        "category": "ui",
+        "tags": [
+            "switch",
+            "on",
+            "control"
+        ],
+        "aliases": []
+    },
+    "triangle": {
+        "category": "shapes",
+        "tags": [
+            "geometry",
+            "three",
+            "pyramid"
+        ],
+        "aliases": []
+    },
+    "voicemail": {
+        "category": "communication",
+        "tags": [
+            "phone",
+            "message",
+            "recording"
+        ],
+        "aliases": []
+    },
+    "x": {
+        "category": "ui",
+        "tags": [
+            "close",
+            "remove",
+            "delete",
+            "cancel"
+        ],
+        "aliases": []
+    },
+    "x-circle": {
+        "category": "ui",
+        "tags": [
+            "close",
+            "remove",
+            "delete",
+            "cancel",
+            "error"
+        ],
+        "aliases": []
+    }
+}
