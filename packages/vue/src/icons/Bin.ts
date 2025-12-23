@@ -14,7 +14,7 @@ const Bin: FunctionalComponent<SVGAttributes> = (props, context) => {
     'stroke-linejoin': 'round',
     ...attrs,
     ...props,
-    innerHTML: "<mask id='path-1-inside-1_3404_96' fill='white'><rect x='6' y='22' width='16' height='12' rx='1' transform='rotate(-90 6 22)'/></mask><rect x='6' y='22' width='16' height='12' rx='1' transform='rotate(-90 6 22)' stroke='black' stroke-width='4' mask='url(#path-1-inside-1_3404_96)'/><mask id='path-2-inside-2_3404_96' fill='white'><rect x='9' y='8' width='6' height='6' rx='1' transform='rotate(-90 9 8)'/></mask><rect x='9' y='8' width='6' height='6' rx='1' transform='rotate(-90 9 8)' stroke='black' stroke-width='4' mask='url(#path-2-inside-2_3404_96)'/><rect x='20' y='6' width='2' height='16' rx='1' transform='rotate(90 20 6)' fill='#141313'/><rect x='9' y='11' width='2' height='6' rx='0.5' fill='#141313'/><rect x='13' y='11' width='2' height='6' rx='0.5' fill='#141313'/>"
+    innerHTML: "<path d='M3 7C2.44772 7 2 6.55228 2 6C2 5.44772 2.44772 5 3 5L21 5C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7L3 7Z' fill='black'/><path d='M15 7V5C15 3.89543 14.1046 3 13 3H11C9.89543 3 9 3.89543 9 5V7' stroke='black' stroke-width='2'/><path d='M6 5V19C6 20.1046 6.89543 21 8 21H16C17.1046 21 18 20.1046 18 19V5' stroke='black' stroke-width='2'/>"
   });
 };
 

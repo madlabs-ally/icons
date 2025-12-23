@@ -1,10 +1,18 @@
 # @melospot/icons-react
 
+## 0.0.4
+
+### Patch Changes
+
+- fix: ensure all icons are synced and published
+- Updated dependencies
+  - @melospot/icons@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
 
-- Generated 54 icons from SVG source files across all framework packages. Updated icon generation system to support all frameworks with consistent component output.
+- feat: add bin icon and sync all packages
 - Updated dependencies
   - @melospot/icons@0.0.2
 

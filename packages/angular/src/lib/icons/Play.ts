@@ -1,0 +1,41 @@
+import { Component, Input } from '@angular/core';
+
+@Component({
+  selector: 'icon-play',
+  standalone: true,
+  template: `
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      [attr.width]="size"
+      [attr.height]="size"
+      viewBox="0 0 24 24"
+      fill="none"
+      [attr.stroke]="color"
+      [attr.stroke-width]="strokeWidth"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="melospot-icon"
+    >
+      <g clip-path="url(#clip0_14_67)">
+<path d="M7.98807 6.81301C7.98633 6.04321 8.81889 5.56002 9.48643 5.9434L18.4983 11.1191C19.1657 11.5025 19.1677 12.4648 18.5021 12.8512L9.51361 18.0679C8.84789 18.4541 8.01335 17.975 8.0115 17.2054L7.98807 6.81301Z" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_14_67">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+    </svg>
+  `,
+  styles: [`
+    :host {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  `]
+})
+export class Play {
+  @Input() size: number | string = 24;
+  @Input() color: string = 'currentColor';
+  @Input() strokeWidth: number | string = 2;
+}

@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Generated 54 icons from SVG source files across all framework packages. Updated icon generation system to support all frameworks with consistent component output.
+- fix: ensure all icons are synced and published
 
 ## 0.0.2
 
