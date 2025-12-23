@@ -1,5 +1,17 @@
 # @melospot/icons-svelte
 
+## 0.0.6
+
+### Patch Changes
+
+- Add new icons: arrow-up, food-cart
+
+## 0.0.5
+
+### Patch Changes
+
+- Fixing the stroke fill issue on icons
+
 ## 0.0.4
 
 ### Patch Changes

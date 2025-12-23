@@ -1,0 +1,25 @@
+import { Component, ComponentProps } from 'solid-js';
+
+const Bin2: Component<ComponentProps<'svg'>> = (props) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      {...props}
+    >
+      <path d="M3 7C2.44772 7 2 6.55228 2 6C2 5.44772 2.44772 5 3 5L21 5C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7L3 7Z" fill="black"/>
+<path d="M15 7V5C15 3.89543 14.1046 3 13 3H11C9.89543 3 9 3.89543 9 5V7" stroke="black" stroke-width="2"/>
+<path d="M6 5V19C6 20.1046 6.89543 21 8 21H16C17.1046 21 18 20.1046 18 19V5" stroke="black" stroke-width="2"/>
+<path d="M9 11C9 10.4477 9.44772 10 10 10C10.5523 10 11 10.4477 11 11V15C11 15.5523 10.5523 16 10 16C9.44772 16 9 15.5523 9 15V11Z" fill="black"/>
+<path d="M13 11C13 10.4477 13.4477 10 14 10C14.5523 10 15 10.4477 15 11V15C15 15.5523 14.5523 16 14 16C13.4477 16 13 15.5523 13 15V11Z" fill="black"/>
+    </svg>
+  );
+};
+export default Bin2;

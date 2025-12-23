@@ -14,7 +14,7 @@ const Image: FunctionalComponent<SVGAttributes> = (props, context) => {
     'stroke-linejoin': 'round',
     ...attrs,
     ...props,
-    innerHTML: "<g clip-path='url(#clip0_3387_139)'><path d='M5.50001 21L17.4808 8.68007C17.8516 8.29882 18.4559 8.27444 18.8561 8.62458L21 10.5' stroke='black' stroke-width='2' stroke-linecap='round'/><circle cx='8.5' cy='8.5' r='1.75' stroke='black' stroke-width='1.5'/><rect x='3' y='3' width='18' height='18' rx='3' stroke='black' stroke-width='2'/></g><defs><clipPath id='clip0_3387_139'><rect width='24' height='24' fill='white'/></clipPath></defs>"
+    innerHTML: "<g clip-path='url(#clip0_2_132)'><path d='M11.1789 20.4289L16.6334 14.6881C17.3884 13.8935 18.6423 13.8546 19.4451 14.6009L20.7727 15.8352' stroke='black' stroke-width='2' stroke-linecap='round'/><path d='M3.3277 18.8277L8.02561 13.6236C8.78301 12.7846 10.0847 12.7395 10.8984 13.524L14.4063 16.9062' stroke='black' stroke-width='2' stroke-linecap='round'/><circle cx='14.5' cy='8.5' r='1.75' stroke='black' stroke-width='1.5'/><rect x='3' y='3' width='18' height='18' rx='3' stroke='black' stroke-width='2'/></g><defs><clipPath id='clip0_2_132'><rect width='24' height='24' fill='white'/></clipPath></defs>"
   });
 };
 
