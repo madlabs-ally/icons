@@ -1,5 +1,11 @@
 # @melospot/icons-solid
 
+## 0.0.6
+
+### Patch Changes
+
+- Add new icons: arrow-up, food-cart
+
 ## 0.0.5
 
 ### Patch Changes

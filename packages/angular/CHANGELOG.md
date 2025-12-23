@@ -1,5 +1,11 @@
 # @melospot/icons-angular
 
+## 0.0.5
+
+### Patch Changes
+
+- Add new icons: arrow-up, food-cart
+
 ## 0.0.4
 
 ### Patch Changes
