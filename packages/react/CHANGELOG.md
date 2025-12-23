@@ -1,5 +1,13 @@
 # @melospot/icons-react
 
+## 0.0.6
+
+### Patch Changes
+
+- Add new icons: arrow-up, food-cart
+- Updated dependencies
+  - @melospot/icons@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes
