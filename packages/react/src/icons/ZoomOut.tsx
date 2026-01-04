@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const ZoomOut = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={10} cy={11} r={7} stroke="currentColor" strokeWidth={2} /><path d="M14.766 17.1749C14.343 16.8199 14.2878 16.1891 14.6428 15.7661C14.9978 15.343 15.6285 15.2878 16.0516 15.6428L20.6479 19.4995C21.071 19.8545 21.1261 20.4853 20.7711 20.9084C20.4161 21.3314 19.7854 21.3866 19.3623 21.0316L14.766 17.1749Z" fill="currentColor" /><rect x={6} y={12} width={2} height={8} rx={1} transform="rotate(-90 6 12)" fill="currentColor" /></svg>;

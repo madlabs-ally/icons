@@ -1,6 +1,6 @@
 {
   "name": "@melospot/icons-svg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Static SVG icons for MeloSpot.",
   "main": "index.ts",
   "repository": "https://github.com/MeloSpot/icons.git",
