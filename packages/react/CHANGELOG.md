@@ -1,11 +1,20 @@
 # @melospot/icons-react
 
-## 0.1.0
+## 0.0.8
 
 ### Minor Changes
 
 - new icons
 - new icons
+## 0.0.7
+
+### Patch Changes
+
+- New icons for react
+
+### Patch Changes
+
+- Sync new SVG icons to React package
 
 ## 0.0.6
 
