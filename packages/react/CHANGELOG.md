@@ -1,5 +1,12 @@
 # @melospot/icons-react
 
+## 0.1.0
+
+### Minor Changes
+
+- new icons
+- new icons
+
 ## 0.0.6
 
 ### Patch Changes

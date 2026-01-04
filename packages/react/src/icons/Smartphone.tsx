@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const Smartphone = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><g clipPath="url(#clip0_83_25)"><rect x={17} y={5} width={14} height={10} rx={2} transform="rotate(90 17 5)" stroke="currentColor" strokeWidth={2} /><path d="M13 15C13.5523 15 14 15.4477 14 16C14 16.5523 13.5523 17 13 17H11C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15H13Z" fill="currentColor" /></g><defs><clipPath id="clip0_83_25"><rect width={24} height={24} fill="white" /></clipPath></defs></svg>;
