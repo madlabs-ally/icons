@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const Clipboard = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M17 4H19C19.5523 4 20 4.44772 20 5V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V5C4 4.44772 4.44772 4 5 4H7" stroke="currentColor" strokeWidth={2} /><mask id="path-2-inside-1_118_95" fill="white"><rect x={7} y={1} width={10} height={6} rx={1} /></mask><rect x={7} y={1} width={10} height={6} rx={1} stroke="currentColor" strokeWidth={4} mask="url(#path-2-inside-1_118_95)" /></svg>;
