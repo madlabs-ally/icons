@@ -1,3 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const Dice2 = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M9 10C10.1046 10 11 10.8954 11 12C11 13.1046 10.1046 14 9 14C7.89543 14 7 13.1046 7 12C7 10.8954 7.89543 10 9 10Z" fill="currentColor" /><rect x={17} y={10} width={4} height={4} rx={2} transform="rotate(90 17 10)" fill="currentColor" /><rect x={3} y={3} width={18} height={18} rx={3} stroke="currentColor" /></svg>;
+import { Ref, forwardRef } from "react";
+export const Dice2 = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M9 10C10.1046 10 11 10.8954 11 12C11 13.1046 10.1046 14 9 14C7.89543 14 7 13.1046 7 12C7 10.8954 7.89543 10 9 10Z" fill="currentColor" /><rect x={17} y={10} width={4} height={4} rx={2} transform="rotate(90 17 10)" fill="currentColor" /><rect x={3} y={3} width={18} height={18} rx={3} stroke="currentColor" strokeWidth={2} /></svg>));
+Dice2.displayName = "Dice2";

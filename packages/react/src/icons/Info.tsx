@@ -1,3 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const Info = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" /><path d="M11 10C11 9.44772 11.4477 9 12 9V9C12.5523 9 13 9.44772 13 10V16C13 16.5523 12.5523 17 12 17V17C11.4477 17 11 16.5523 11 16V10Z" fill="#141313" /><path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V7C13 7.55228 12.5523 8 12 8V8C11.4477 8 11 7.55228 11 7V7Z" fill="#141313" /></svg>;
+import { Ref, forwardRef } from "react";
+export const Info = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path d="M11 10C11 9.44772 11.4477 9 12 9V9C12.5523 9 13 9.44772 13 10V16C13 16.5523 12.5523 17 12 17V17C11.4477 17 11 16.5523 11 16V10Z" fill="#141313" /><path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V7C13 7.55228 12.5523 8 12 8V8C11.4477 8 11 7.55228 11 7V7Z" fill="#141313" /></svg>));
+Info.displayName = "Info";
