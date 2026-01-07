@@ -1,3 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const Mic = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M18 11C18 14.3137 15.3137 17 12 17C8.68629 17 6 14.3137 6 11" stroke="currentColor" strokeLinecap="round" /><rect x={9} y={3} width={6} height={11} rx={3} stroke="currentColor" /><path d="M13 21C13 21.5523 12.5523 22 12 22V22C11.4477 22 11 21.5523 11 21V18C11 17.4477 11.4477 17 12 17V17C12.5523 17 13 17.4477 13 18L13 21Z" fill="currentColor" /></svg>;
+import { Ref, forwardRef } from "react";
+export const Mic = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M18 11C18 14.3137 15.3137 17 12 17C8.68629 17 6 14.3137 6 11" stroke="currentColor" strokeWidth={2} strokeLinecap="round" /><rect x={9} y={3} width={6} height={11} rx={3} stroke="currentColor" strokeWidth={2} /><path d="M13 21C13 21.5523 12.5523 22 12 22V22C11.4477 22 11 21.5523 11 21V18C11 17.4477 11.4477 17 12 17V17C12.5523 17 13 17.4477 13 18L13 21Z" fill="currentColor" /></svg>));
+Mic.displayName = "Mic";

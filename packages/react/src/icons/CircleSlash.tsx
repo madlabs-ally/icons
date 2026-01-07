@@ -1,3 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const CircleSlash = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" /><path d="M15.7782 9.7071C16.1687 9.31658 16.1687 8.68341 15.7782 8.29289C15.3877 7.90237 14.7545 7.90237 14.364 8.29289L8.70712 13.9497C8.31659 14.3403 8.31659 14.9734 8.70712 15.364C9.09764 15.7545 9.73081 15.7545 10.1213 15.364L15.7782 9.7071Z" fill="currentColor" /></svg>;
+import { Ref, forwardRef } from "react";
+export const CircleSlash = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path d="M15.7782 9.7071C16.1687 9.31658 16.1687 8.68341 15.7782 8.29289C15.3877 7.90237 14.7545 7.90237 14.364 8.29289L8.70712 13.9497C8.31659 14.3403 8.31659 14.9734 8.70712 15.364C9.09764 15.7545 9.73081 15.7545 10.1213 15.364L15.7782 9.7071Z" fill="currentColor" /></svg>));
+CircleSlash.displayName = "CircleSlash";
