@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const Locate = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><circle cx={12} cy={12} r={7} stroke="currentColor" strokeWidth={2} /><path d="M11 2C11 1.44772 11.4477 1 12 1V1C12.5523 1 13 1.44772 13 2V6H11V2Z" fill="currentColor" /><path d="M13 22C13 22.5523 12.5523 23 12 23V23C11.4477 23 11 22.5523 11 22V18H13V22Z" fill="currentColor" /><path d="M2 13C1.44772 13 1 12.5523 1 12V12C1 11.4477 1.44772 11 2 11H6V13H2Z" fill="currentColor" /><path d="M22 13C22.5523 13 23 12.5523 23 12V12C23 11.4477 22.5523 11 22 11H18V13H22Z" fill="currentColor" /></svg>;

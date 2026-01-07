@@ -58,7 +58,6 @@ This command runs the build script for all packages and then publishes them usin
 > [!NOTE]
 > Ensure you have built the packages (`pnpm build`) if you are running this locally, although the `release` script in `package.json` includes a build step (`pnpm build:packages`).
 
-
 ## Troubleshooting
 
 ### Common Errors
