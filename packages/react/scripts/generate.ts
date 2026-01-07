@@ -36,7 +36,7 @@ async function generate() {
 
     for (const file of files) {
         const componentName = toPascalCase(path.basename(file, '.svg'));
-        const svgCode = fs.readFileSync(path.join(SVG_DIR, file), 'utf8');
+        const svgCode = fs.readFileSync(path.join(SVG_DIR, file), 'utf8').replace(/stroke-width="2"/g, '');
 
         const componentCode = await transform(
             svgCode,
