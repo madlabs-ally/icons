@@ -1,0 +1,3 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+export const Wallpaper = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M11.1789 16.4289L16.6334 10.6881C17.3884 9.89352 18.6423 9.85463 19.4451 10.6009L20.7727 11.8352" stroke="currentColor" strokeWidth={2} strokeLinecap="round" /><circle cx={8.5} cy={8.5} r={1.75} stroke="currentColor" strokeWidth={1.5} /><rect x={3} y={3} width={18} height={14} rx={3} stroke="currentColor" strokeWidth={2} /><rect x={11} y={16} width={2} height={5} fill="currentColor" /><rect x={18} y={20} width={2} height={12} rx={1} transform="rotate(90 18 20)" fill="currentColor" /></svg>;

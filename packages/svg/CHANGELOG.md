@@ -1,5 +1,11 @@
 # @melospot/icons-svg
 
+## 0.1.0
+
+### Minor Changes
+
+- new icons
+
 ## 0.0.3
 
 ### Patch Changes
