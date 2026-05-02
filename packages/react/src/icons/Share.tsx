@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Share = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={6.46401} cy={11.4634} r={3} transform="rotate(-29.9964 6.46401 11.4634)" stroke="currentColor" strokeWidth={2} /><circle cx={16.8566} cy={5.46402} r={3} transform="rotate(-29.9964 16.8566 5.46402)" stroke="currentColor" strokeWidth={2} /><line x1={9.06219} y1={9.96353} x2={14.2585} y2={6.96386} stroke="currentColor" strokeWidth={2} /><circle cx={4} cy={4} r={3} transform="matrix(0.866057 0.499945 0.499945 -0.866057 11.3926 18.9278)" stroke="currentColor" strokeWidth={2} /><line y1={-1} x2={6} y2={-1} transform="matrix(0.866057 0.499945 0.499945 -0.866057 9.56213 12.0978)" stroke="currentColor" strokeWidth={2} /></svg>));
+Share.displayName = "Share";

@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Check = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M11.5352 15.7782C11.1447 16.1687 10.5115 16.1687 10.121 15.7782C9.73049 15.3877 9.73049 14.7545 10.121 14.364L15.7779 8.70712C16.1684 8.31659 16.8016 8.31659 17.1921 8.70712C17.5826 9.09764 17.5826 9.73081 17.1921 10.1213L11.5352 15.7782Z" fill="currentColor" /><path d="M7.76604 13.8008C7.34297 13.4458 7.28779 12.8151 7.64279 12.392C7.99779 11.9689 8.62855 11.9137 9.05162 12.2687L11.4547 14.2851C11.8778 14.6401 11.933 15.2709 11.578 15.694C11.2229 16.117 10.5922 16.1722 10.1691 15.8172L7.76604 13.8008Z" fill="currentColor" /></svg>));
+Check.displayName = "Check";

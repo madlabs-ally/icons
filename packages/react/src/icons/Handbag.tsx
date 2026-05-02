@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Handbag = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M5.49023 6H18.5098C19.4722 6 20.2982 6.68589 20.4756 7.63184L22.3506 17.6318C22.5811 18.8625 21.6369 20 20.3848 20H3.61523C2.36307 20 1.41886 18.8625 1.64941 17.6318L3.52441 7.63184C3.70178 6.68589 4.5278 6 5.49023 6Z" stroke="currentColor" strokeWidth={2} /><path d="M16 9V4C16 2.89543 15.1046 2 14 2H10C8.89543 2 8 2.89543 8 4V9" stroke="currentColor" strokeWidth={2} /></svg>));
+Handbag.displayName = "Handbag";

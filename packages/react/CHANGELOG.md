@@ -1,5 +1,23 @@
 # @melospot/icons-react
 
+## 0.2.0
+
+### Minor Changes
+
+- icons
+
+## 0.2.0
+
+### Minor Changes
+
+- icons
+
+## 0.2.0
+
+### Minor Changes
+
+- icons
+
 ## 0.1.0
 
 ### Minor Changes

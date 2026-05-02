@@ -44,21 +44,28 @@ async function generate() {
                 typescript: true,
                 plugins: ['@svgr/plugin-jsx'],
                 icon: true,
+                ref: true,
+                svgProps: {
+                    strokeLinecap: 'round',
+                    strokeLinejoin: 'round',
+                    shapeRendering: 'geometricPrecision',
+                },
                 replaceAttrValues: {
                     '#000': 'currentColor',
                     '#000000': 'currentColor',
                     black: 'currentColor',
                 },
-                // Add other SVGR options here as needed
                 template: (variables, { tpl }) => {
                     return tpl`
 ${variables.imports};
 
 ${variables.interfaces};
 
-export const ${variables.componentName} = (${variables.props}) => (
+export const ${variables.componentName} = React.memo(React.forwardRef((${variables.props}) => (
   ${variables.jsx}
-);
+)));
+
+${variables.componentName}.displayName = "${variables.componentName}";
 `;
                 },
             },

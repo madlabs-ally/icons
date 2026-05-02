@@ -1,3 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const CircleDashed = (props: SVGProps<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><g clipPath="url(#clip0_3387_80)"><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} strokeDasharray="4 4" /></g><defs><clipPath id="clip0_3387_80"><rect width={24} height={24} fill="white" /></clipPath></defs></svg>;
+import { Ref, forwardRef } from "react";
+export const CircleDashed = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} strokeLinejoin="bevel" strokeDasharray="4 4" /></svg>));
+CircleDashed.displayName = "CircleDashed";
