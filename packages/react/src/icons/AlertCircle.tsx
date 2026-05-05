@@ -1,5 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef } from "react";
-export const AlertCircle = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path d="M13 13C13 13.5523 12.5523 14 12 14V14C11.4477 14 11 13.5523 11 13V7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V13Z" fill="#141313" /><path d="M13 16C13 16.5523 12.5523 17 12 17V17C11.4477 17 11 16.5523 11 16V16C11 15.4477 11.4477 15 12 15V15C12.5523 15 13 15.4477 13 16V16Z" fill="#141313" /></svg>));
+export const AlertCircle = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path fill="#141313" d="M13 13a1 1 0 1 1-2 0V7a1 1 0 1 1 2 0zm0 3a1 1 0 1 1-2 0 1 1 0 1 1 2 0" /></svg>));
 AlertCircle.displayName = "AlertCircle";
