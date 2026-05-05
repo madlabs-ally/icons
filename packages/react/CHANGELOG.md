@@ -16,6 +16,12 @@
 
 ### Minor Changes
 
+- Added new icons and improvements to icon system.
+
+## 0.2.0
+
+### Minor Changes
+
 - icons
 
 ## 0.2.0
