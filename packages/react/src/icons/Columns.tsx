@@ -1,5 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef } from "react";
-export const Columns = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M8 3C8 2.44772 8.44772 2 9 2C9.55228 2 10 2.44772 10 3V21C10 21.5523 9.55228 22 9 22C8.44772 22 8 21.5523 8 21L8 3Z" fill="currentColor" /><path d="M14 3C14 2.44772 14.4477 2 15 2C15.5523 2 16 2.44772 16 3V21C16 21.5523 15.5523 22 15 22C14.4477 22 14 21.5523 14 21L14 3Z" fill="currentColor" /><rect x={3} y={3} width={18} height={18} rx={3} stroke="currentColor" strokeWidth={2} /></svg>));
+export const Columns = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path fill="currentColor" d="M8 3a1 1 0 0 1 2 0v18a1 1 0 1 1-2 0zm6 0a1 1 0 1 1 2 0v18a1 1 0 1 1-2 0z" /><rect width={18} height={18} x={3} y={3} stroke="currentColor" strokeWidth={2} rx={3} /></svg>));
 Columns.displayName = "Columns";

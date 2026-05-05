@@ -1,5 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef } from "react";
-export const CirclePlay = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path d="M8.92681 8.47761C8.92506 7.70781 9.75763 7.22461 10.4252 7.608L16.4328 11.0586C17.1003 11.442 17.1024 12.4043 16.4366 12.7908L10.4448 16.2682C9.77903 16.6546 8.94445 16.1755 8.94271 15.4057L8.92681 8.47761Z" stroke="currentColor" strokeWidth={2} /></svg>));
+export const CirclePlay = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><circle cx={12} cy={12} r={9} stroke="currentColor" strokeWidth={2} /><path stroke="currentColor" strokeWidth={2} d="M8.927 8.478a1 1 0 0 1 1.498-.87l6.008 3.45a1 1 0 0 1 .004 1.733l-5.992 3.477a1 1 0 0 1-1.502-.862z" /></svg>));
 CirclePlay.displayName = "CirclePlay";
