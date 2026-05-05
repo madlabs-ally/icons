@@ -114,8 +114,8 @@ describe('useIconSearch hooks', () => {
 
     it('memoizes results for same category', () => {
       const { result, rerender } = renderHook(
-        ({ category }) => useIconsByCategory(category),
-        { initialProps: { category: 'essential' as const } }
+        ({ category }: { category: 'essential' | 'media' }) => useIconsByCategory(category),
+        { initialProps: { category: 'essential' as 'essential' | 'media' } }
       )
       
       const firstResult = result.current
@@ -126,8 +126,8 @@ describe('useIconSearch hooks', () => {
 
     it('updates results when category changes', () => {
       const { result, rerender } = renderHook(
-        ({ category }) => useIconsByCategory(category),
-        { initialProps: { category: 'essential' as const } }
+        ({ category }: { category: 'essential' | 'media' }) => useIconsByCategory(category),
+        { initialProps: { category: 'essential' as 'essential' | 'media' } }
       )
       
       expect(result.current).toHaveLength(2)

@@ -1,5 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef } from "react";
-export const Equals = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M3 11C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9L21 9C21.5523 9 22 9.44772 22 10C22 10.5523 21.5523 11 21 11L3 11Z" fill="currentColor" /><path d="M3 15C2.44772 15 2 14.5523 2 14C2 13.4477 2.44772 13 3 13L21 13C21.5523 13 22 13.4477 22 14C22 14.5523 21.5523 15 21 15L3 15Z" fill="currentColor" /></svg>));
+export const Equals = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path fill="currentColor" d="M3 11a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2zm0 4a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2z" /></svg>));
 Equals.displayName = "Equals";

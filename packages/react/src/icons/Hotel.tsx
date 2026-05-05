@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const Hotel = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path stroke="currentColor" strokeWidth={2} d="M8 3h8a3 3 0 0 1 3 3v15H5V6a3 3 0 0 1 3-3Z" /><path fill="currentColor" d="M3 22a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2z" /><rect width={3} height={3} x={8} y={6} fill="currentColor" rx={1} /><rect width={3} height={3} x={13} y={6} fill="currentColor" rx={1} /><rect width={3} height={3} x={8} y={11} fill="currentColor" rx={1} /><rect width={3} height={3} x={13} y={11} fill="currentColor" rx={1} /><rect width={3} height={5} x={8} y={16} fill="currentColor" rx={1} /><rect width={3} height={3} x={13} y={16} fill="currentColor" rx={1} /></svg>));
+Hotel.displayName = "Hotel";

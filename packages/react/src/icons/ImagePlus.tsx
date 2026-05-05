@@ -1,0 +1,5 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+import { Ref, forwardRef } from "react";
+export const ImagePlus = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><g clipPath="url(#a)"><path stroke="currentColor" strokeLinecap="round" strokeWidth={2} d="m5.898 20.586 8.96-9.49a2 2 0 0 1 2.822-.085l3.258 3.052" /><circle cx={7.5} cy={8.5} r={1.75} stroke="currentColor" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeWidth={2} d="M21 10v7a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h7" /><path fill="currentColor" d="M18 2a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0z" /><path fill="currentColor" d="M16 6a1 1 0 1 1 0-2h6a1 1 0 1 1 0 2z" /></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z" /></clipPath></defs></svg>));
+ImagePlus.displayName = "ImagePlus";

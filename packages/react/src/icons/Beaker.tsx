@@ -1,5 +1,5 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 import { Ref, forwardRef } from "react";
-export const Beaker = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path d="M8 18V5H16V18C16 19.1046 15.1046 20 14 20H10C8.96435 20 8.113 19.2128 8.01074 18.2041L8 18Z" stroke="currentColor" strokeWidth={2} /><path d="M17 4C17.5523 4 18 4.44772 18 5V5C18 5.55228 17.5523 6 17 6H7C6.44772 6 6 5.55228 6 5V5C6 4.44772 6.44772 4 7 4L17 4Z" fill="currentColor" /><rect x={17} y={13} width={2} height={10} transform="rotate(90 17 13)" fill="currentColor" /></svg>));
+export const Beaker = React.memo(React.forwardRef((props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" strokeLinecap="round" strokeLinejoin="round" shapeRendering="geometricPrecision" ref={ref} {...props}><path stroke="currentColor" strokeWidth={2} d="M8 18V5h8v13a2 2 0 0 1-2 2h-4a2 2 0 0 1-1.99-1.796z" /><path fill="currentColor" d="M17 4a1 1 0 1 1 0 2H7a1 1 0 0 1 0-2zm0 9v2H7v-2z" /></svg>));
 Beaker.displayName = "Beaker";
